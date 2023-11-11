@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Navbar from '@/components/NavBar/Navbar'
+import Index from '@/components/index'
 
 export default function Home() {
   return (
-    <Navbar />
+    <Index />
   )
 }
