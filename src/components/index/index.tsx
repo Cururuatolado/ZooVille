@@ -1,5 +1,6 @@
 import React from 'react';
-import './indexstyle.css'
+import '../../../public/logo.png'
+import '../indexstyle.css'
 
 export default function Index () {
     return (
@@ -28,25 +29,10 @@ export default function Index () {
                 />
             </head>
             <body>
-                <header>
-                    <a href="#" className="logo">
-                        <img src="logo.png" alt="logo" width="100px" />
-                    </a>
-                    <ul className="navlist">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="pages/sobre.html">Sobre</a></li>
-                        <li><a href="pages/Att.html">Atualizações</a></li>
-                        <li><a href="pages/feedbacks.html">Feedback</a></li>
-                        <li><a href="pages/Sup.html">Suporte</a></li>
-                    </ul>
-
-                    <div className="bx bx-menu" id="menu"></div>
-                </header>
-
                 <section className="hero">
                     <div className="hero-text">
                         <h4>Narwhal Tech Presents</h4>
-                        <img className="hero-img" src="img/logo.png" alt="logo" />
+                        <img className="hero-img" src="logo.png" alt="logo" />
                         <p>
                             Junte-se á jogadores de todo o mundo enquanto constrói seu ZOO. Crie seu zoologico
                             para ser o melhor!!
